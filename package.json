@@ -14,6 +14,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
+    "git-commit-msg-linter": "^3.3.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.7",
     "typescript": "*"
