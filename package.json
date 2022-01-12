@@ -20,6 +20,7 @@
     "typescript": "*"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "ts-node src/index.ts"
   }
 }
