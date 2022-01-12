@@ -53,13 +53,3 @@ export class Stack {
     this.print(positionData)
   }
 }
-
-const stack = new Stack()
-
-stack.push('teste1')
-stack.push('teste2')
-stack.push('teste3')
-stack.push('teste4')
-
-stack.print(stack.firstPosition)
-console.log(stack)

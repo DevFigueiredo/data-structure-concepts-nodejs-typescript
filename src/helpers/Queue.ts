@@ -6,7 +6,7 @@ export class Node {
   }
 }
 
-class Queue {
+export class Queue {
   public firstPosition: Node | null
   public lastPosition: Node | any
   public length: number
@@ -37,12 +37,12 @@ class Queue {
     this.firstPosition = this.firstPosition.next
     this.length--
   }
+
+  print (positionData: Node | null): void {
+    if (!positionData) return
+    console.log(positionData.data)
+    positionData = positionData.next
+
+    this.print(positionData)
+  }
 }
-
-const queue = new Queue()
-
-queue.enqueue('first')
-queue.enqueue('second')
-queue.enqueue('third')
-
-queue.dequeue()
